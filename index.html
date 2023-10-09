@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <!-- importing bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"  rel="stylesheet"  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"  crossorigin="anonymous"> -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>test</title>
+</head>
+<body>
+
+    <div class=preloader>
+        <div class=loadingText>
+            LOADING
+        </div>
+    </div>
+
+    
+
+    <div class="header">
+
+        <div class="navbar">
+            
+            <!-- Menu button -->
+            <div class="menu-toggle">
+                <div id="menu-toggle-btn">
+                    <span id="toggle-icon-btn"></span>
+                </div>
+            </div>
+            
+            <!-- top Site LOGO -->
+            <div class="site-logo">اسم سایت</div>
+            
+        </div> 
+
+        <div class="owl-carousel header-carousel">
+
+            <div class="owl-carousel-item" data-dot="<img src='img/carousel-1.jpg'>">
+                <img src="img/carousel-1.jpg" alt="img1">
+                <div class="owl-carousel-inner"></div>
+            </div>
+
+            <div class="owl-carousel-item" data-dot="<img src='img/carousel-2.jpg'>">
+                <img src="img/carousel-2.jpg" alt="img2">
+                <div class="owl-carousel-inner"></div>
+            </div>
+
+            <div class="owl-carousel-item" data-dot="<img src='img/carousel-3.jpg'>">
+                <img src="img/carousel-3.jpg" alt="img3">
+                <div class="owl-carousel-inner"></div>
+            </div>
+
+        </div>
+
+        <div class="blackBg-onScrolling"></div>
+      
+        <div class="nav-container">
+    
+            <div class="nav">
+                <div class="col flex">
+    
+                    <div class="nav-logo">site</div>
+    
+                    <div class="nav-socials">
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="col col2">
+    
+                <div class="nav-link">
+    
+                    <a href="#">صفحه نخست</a>
+    
+                    <div class="nav-item-wrapper"></div>
+    
+                </div>
+    
+                <div class="nav-link">
+    
+                    <a href="#">پروژه ها</a>
+    
+                    <div class="nav-item-wrapper"></div>
+    
+                </div>
+    
+                <div class="nav-link">
+    
+                    <a href="#">درباره ما</a>
+    
+                    <div class="nav-item-wrapper"></div>
+    
+                </div>
+    
+                <div class="nav-link">
+    
+                    <a href="#">خدمات</a>
+    
+                    <div class="nav-item-wrapper"></div>
+    
+                </div>
+    
+                <div class="nav-link">
+    
+                    <a href="#">تماس با ما</a>
+    
+                    <div class="nav-item-wrapper"></div>
+    
+                </div>
+    
+            </div>
+    
+            <div class="nav-footer">
+    
+                <div class="links">
+    
+                    <a href="#">Privacy Policy</a>
+    
+                    <a href="#">Cookie Policy</a>
+    
+                    <a href="#">Terms & Conditions</a>
+    
+                </div>
+    
+                <div class="contacts">
+    
+                    <a href="#" class="contacts-item"> 
+                        <ion-icon name="mail-outline"></ion-icon> 
+                        <span>email@email.com</span>
+                    </a>
+
+                    <a href="#" class="contacts-item"> 
+                        <ion-icon name="call-outline"></ion-icon> 
+                        <span>0917xxxxxxx</span>
+                    </a>
+
+                    <a href="#" class="contacts-item"> 
+                        <ion-icon name="time-outline"></ion-icon> 
+                        <span>ساعت کاری 6 صبح تا 2 ظهر</span>
+                    </a>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </div>
+
+    <!-- Projects section -start- -->
+    <div class="projects-section">
+
+        <div class="projects-section-container">
+
+            <div class="titleOfProjects-section">
+                
+                <div><span></span><h1>پـروژه هـای مـا</h1></div>
+
+                <p>پروژه ها و نمونه کارهای خلاقانه ای که شرکت ما انجام داده است.</p>
+            </div>
+
+            <a href="#" ><button>هـمـه ی پـروژه هـا</button></a>
+
+        </div>
+
+        <div class="cosmetic-box"></div>
+       
+    </div>
+    
+    <div class="projects-gallery">
+        <div id="image-carousel" class="splide">
+
+            <div class="splide__arrows splide__arrows--rtl">
+                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide">
+                    <ion-icon name='chevron-forward-outline'></ion-icon>
+                </button>
+                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide">
+                    <ion-icon name='chevron-back-outline'></ion-icon>
+                </button>
+            </div>
+
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide darken-image">
+                        <img src="img/carousel-2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="content">
+    
+                                <div class="title">
+                                    اسـم پـروژه
+                                </div>
+            
+                                <div class="sub-title">
+                                    زیر متن پروژه
+                                </div>
+            
+                            </div>
+                        </div>
+                    </li>
+    
+                    <li class="splide__slide darken-image">
+                        <img src="img/carousel-2.jpg" alt="">
+                        <div class="overlay"></div>
+    
+                        <div class="content">
+    
+                            <div class="title">
+                                اسـم پـروژه
+                            </div>
+        
+                            <div class="sub-title">
+                                زیر متن پروژه
+                            </div>
+        
+                        </div>
+                    </li>
+    
+                    <li class="splide__slide darken-image">
+                        <img src="img/carousel-2.jpg" alt="">
+                        <div class="overlay"></div>
+    
+                        <div class="content">
+    
+                            <div class="title">
+                                اسـم پـروژه
+                            </div>
+        
+                            <div class="sub-title">
+                                زیر متن پروژه
+                            </div>
+        
+                        </div>
+                    </li>
+                </ul>
+    
+            </div>
+    
+            <div class="my-slider-progress">
+                <div class="my-slider-progress-bar"></div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Projects section -end- -->
+
+    <!-- About-us section -start- -->
+    <div class="about-us-section">
+
+        <div class="about-usContainer">
+            <div><span></span><h3>معـرفی شـرکت</h3></div>
+            <h1>دربـاره شـرکـت مـا</h1>
+            <p class="about-usContainerFirstP">دفتر معماری ما ، فعالیت خود را در زمینه مهندسی معماری ، طراحی نمای ساختمان، طراحی ویلا، معماری داخلی و خدمات ساختمانی با تکیه بر مهارت های تیم خود از سال ۱۳۹۰ آغاز نمود.</p>
+            <p style="font-weight: 300;" class="about-usContainerSecondP">از جمله خدمات اصلی شرکت معماری استودیو ما میتوان به دکوراسیون و طراحی داخلی منزل ، طراحی نمای ساختمان ، طراحی ویلا ، طراحی داخلی و نمای واحد های تجاری واداری اشاره کرد که شامل طراحی، نظارت و اجرا میباشد. ضمنا مرمت و بازسازی بافت های فرسوده و بازسازی ساختمان های قدیمی از مرحله تخریب تا مراحل بعدی نیز جز خدمات این گروه میباشد.</p>    
+            <a href="#"><button type="button">بیشتر بخوانید</button></a>
+        </div>
+
+        <div class="about-usImages">
+            <img id="image11" src="img/about-us1.jpg" alt="">
+            <img id="image22" src="img/about-us2.jpg" alt="">
+        </div>
+
+    </div>
+    <!-- About-us section -end- -->
+
+    <!-- Services section -start- -->
+    <div class="services-section">
+
+        <div class="services-section-container">
+
+            <div class="titleOfServices-section">
+                <div><span></span><h1>خـدمـات ما</h1></div>
+    
+                <p>خدمات و تخصص هایی که شرکت ما برای شما میتواند فراهم کند.</p>
+            </div>
+
+            <div class="services-items-container">
+
+                <div class="services-items">
+    
+                    <div class="services-item">
+                        <img src="img/icons/icon1.png" alt="">
+                        <h3>نـقشـه کشـی سـاختمان</h3>
+                        <p>معماری زمانی پا فراتر از طراحی میگذارد که بتواند ضمن زیبایی از کارایی کافی برخوردار باشد و پاسخگوی نیاز های افراد در دراز مدت باشد.</p>
+                    </div>
+    
+                </div>
+    
+                <div class="services-items">
+    
+                    <div class="services-item">
+                        <img src="img/icons/icon2.png" alt="">
+                        <h3>مـعـمـاری سـاختمان</h3>
+                        <p>معماری زمانی پا فراتر از طراحی میگذارد که بتواند ضمن زیبایی از کارایی کافی برخوردار باشد و پاسخگوی نیاز های افراد در دراز مدت باشد.</p>
+                    </div>
+    
+                </div>
+    
+                <div class="services-items">
+    
+                    <div class="services-item">
+                        <img src="img/icons/icon3.png" alt="">
+                        <h3>طـراحـی داخـلـی سـاختمان</h3>
+                        <p>معماری زمانی پا فراتر از طراحی میگذارد که بتواند ضمن زیبایی از کارایی کافی برخوردار باشد و پاسخگوی نیاز های افراد در دراز مدت باشد.</p>
+                    </div>
+    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Services section -end- -->
+
+    <!-- Cosmetic Photos section -start- -->
+    <div class="cosmeticPhotos-section">
+        <div>
+            <img src="img/photo1.jpg" alt="">
+        </div>
+        <div>
+            <img src="img/photo2.jpg" alt="">
+            <img src="img/photo3.jpg" alt="">
+        </div>
+        <div>
+            <img src="img/photo4.jpg" alt="">
+        </div>
+        <div>
+            <img src="img/photo5.jpg" alt="">
+        </div>
+    </div>
+    <!-- Cosmetic Photos section -end- -->
+
+    <!-- Statistics section -start- -->
+    <div class="statistics-section">
+        <div class="statistics-section-container">
+            
+            <div class="titleOfStatistics-section-container">
+                <h2>آمـار شـرکـت مـا</h2>
+                <p>معماری زمانی پا فراتر از طراحی میگذارد که بتواند ضمن زیبایی از کارایی کافی<br> برخوردار باشد.</p>
+            </div>
+
+            <div class="contentOfStatistics-section-container">
+                <div>
+                    <p>+25<br> سـال<br> تـجـربه کـاری</p>
+                </div>
+                <div>
+                    <p>+741<br> پـروژه های<br> انـجـام شـده</p>
+                </div>
+                <div>
+                    <p>100%<br> رضـایـت<br> مـشـتری هـا</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="logos-container">
+            <img src="img/logos/logo1.png">
+            <img src="img/logos/logo2.png">
+            <img src="img/logos/logo3.png">
+            <img src="img/logos/logo4.png">
+            <img src="img/logos/logo5.png">
+            <img src="img/logos/logo6.png">
+        </div>
+    </div>
+    <!-- Statistics section -end- -->
+
+    <!-- Contact-us section -start- -->
+    <div class="contact-us-section">
+        <div class="contact-us-section-container">
+            
+            <h1 class="titleOfContact-us-section">تـمـاس بـا مـا</h1>
+
+            <div class="googleMap">
+                <iframe src="https://my.atlist.com/map/66ae7a37-06aa-4c5b-a762-682050bb2208?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="340px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+
+            <div class="contact-us-items-container">
+
+                <div class="contact-us-item">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <h3>آدرس دفـتـر</h3>
+                    <p>استان بوشهر, بندرکنگان, خیابان ابوزر ...</p>
+                </div>
+
+                <div class="contact-us-item">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <h3>شـمـاره تـمـاس</h3>
+                    <p>0917xxxxxxx</p>
+                </div>
+
+                <div class="contact-us-item">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <h3>آدرس ایـمـیـل</h3>
+                    <p>email@gmail.com</p>
+                </div>
+                
+                <div class="contact-us-item">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <h3>سـاعـت کـاری</h3>
+                    <p>شنبه - چهارشنبه <br> 6:00 - 22:00 </p>
+                    <span>پنجشنبه - جمعه <br> <span id="red">تـعـطـیـل</span> </span>
+                </div>
+                
+            </div>
+        
+        </div> 
+        
+        <!-- Footer section -start- -->
+        <div class="footer-section">
+            <div class="footer-section-container">
+    
+                <p>© Copyright 2023 SITE.</p>
+    
+                <p><a href="#"><ion-icon name="chevron-up-outline"></ion-icon></a></p>
+    
+                <P>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                </P>
+    
+            </div>
+        </div>
+        <!-- Footer section -end- -->
+
+    </div>
+    <!-- Contact-us section -end- -->
+    
+    <div class="dark-overlay"></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="lib/owl.carousel.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    
+    <script>
+        
+
+        
+
+        
+    </script>
+
+    <!-- Template Javascript -->    
+    <script src="index.js"></script>
+    
+    
+
+</body>
+</html>
